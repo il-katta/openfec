@@ -1,0 +1,149 @@
+openfec (1.4.2.5~git20230101.42c7779) unstable; urgency=medium
+
+  * changelog push
+
+ -- Andrea Cattaneo <andrea.cattaneo.dev@gmail.com>  Sun, 1 Jan 2023 11:52:21 +0100
+
+openfec (1.4.2.5~git20221201.b452e08) unstable; urgency=medium
+
+  * Github actions fixes
+
+ -- Victor Gaydov <victor@enise.org>  Thu, 1 Dec 2022 22:58:12 +0400
+
+openfec (1.4.2.5~git20221201.1696611) unstable; urgency=medium
+
+  * Get project version from .version file
+
+ -- Victor Gaydov <victor@enise.org>  Thu, 1 Dec 2022 22:54:19 +0400
+
+openfec (1.4.2.5~git20221128.4c079c7) unstable; urgency=medium
+
+  * Delete more macOS cruft
+
+ -- Victor Westerhuis <victor@westerhu.is>  Mon, 28 Nov 2022 15:17:01 +0100
+
+openfec (1.4.2.5) unstable; urgency=medium
+
+  * Fix codec type checks
+
+ -- Victor Gaydov <victor@enise.org>  Sun, 27 Nov 2022 15:53:58 +0400
+
+openfec (1.4.2.4~git20221127.65bd0cb) unstable; urgency=medium
+
+  * Add OPTIMIZE option
+
+ -- Victor Gaydov <victor@enise.org>  Sun, 27 Nov 2022 14:48:34 +0400
+
+openfec (1.4.2.4~git20220830.8efeda2) unstable; urgency=medium
+
+  * Update cmake files for distros packaging
+
+ -- Jaroslav Škarvada <jskarvad@redhat.com>  Tue, 30 Aug 2022 12:21:51 +0200
+
+openfec (1.4.2.4~git20221126.5eba5db) unstable; urgency=medium
+
+  * Add .gitignore
+
+ -- Victor Gaydov <victor@enise.org>  Sat, 26 Nov 2022 18:47:08 +0400
+
+openfec (1.4.2.4~git20221126.695498e) unstable; urgency=medium
+
+  * Extract project version from git tag
+
+ -- Victor Gaydov <victor@enise.org>  Sat, 26 Nov 2022 18:45:27 +0400
+
+openfec (1.4.2.4~git20221126.d89dba2) unstable; urgency=medium
+
+  * Build lib on push
+
+ -- Victor Gaydov <victor@enise.org>  Sat, 26 Nov 2022 18:50:17 +0400
+
+openfec (1.4.2.4~git20220628.de73003) unstable; urgency=medium
+
+  * Added rpm spec compatible with openSUSE 15.4
+
+ -- twojstaryzdomu <twojstaryzdomu@github.com>  Tue, 28 Jun 2022 23:38:32 +0200
+
+openfec (1.4.2.4~git20220202.582915c) unstable; urgency=medium
+
+  * Added pkgconfig template cmake list
+
+ -- twojstaryzdomu <twojstaryzdomu@github.com>  Wed, 2 Feb 2022 04:18:20 +0100
+
+openfec (1.4.2.4~git20210910.78ebd17) unstable; urgency=medium
+
+  * Added package build workflow using github actions
+
+ -- twojstaryzdomu <twojstaryzdomu@github.com>  Fri, 10 Sep 2021 11:01:30 +0200
+
+openfec (1.4.2.4~git20210910.ef39e77) unstable; urgency=medium
+
+  * Added debian build configuration
+
+ -- twojstaryzdomu <twojstaryzdomu@github.com>  Fri, 10 Sep 2021 00:46:36 +0200
+
+openfec (1.4.2.4~git20211118.8de9214) unstable; urgency=medium
+
+  * Fix build for big endian targets
+
+ -- Victor Westerhuis <victor@westerhu.is>  Thu, 18 Nov 2021 13:12:24 +0100
+
+openfec (1.4.2.4~git20211118.73ebd5c) unstable; urgency=medium
+
+  * Fix printf format errors
+
+ -- Victor Westerhuis <victor@westerhu.is>  Thu, 18 Nov 2021 15:20:16 +0100
+
+openfec (1.4.2.4~git20211228.b3d5eb3) unstable; urgency=medium
+
+  * remove macos cruft
+
+ -- nick black <dankamongmen@gmail.com>  Tue, 28 Dec 2021 04:07:43 -0500
+
+openfec (1.4.2.4) unstable; urgency=medium
+
+  * android Fix building for Android Termux
+
+ -- Soul Trace <S-trace@list.ru>  Thu, 13 Jun 2019 22:04:06 +0300
+
+openfec (1.4.2.3) unstable; urgency=medium
+
+  * Fix of_add_to_multiple_symbols on 64 bit platforms
+
+ -- Victor Gaydov <victor@enise.org>  Thu, 13 Jun 2019 14:23:21 +0300
+
+openfec (1.4.2.2) unstable; urgency=medium
+
+  * Fix NULL pointer dereference in LDPC Staircase
+
+ -- Victor Gaydov <victor@enise.org>  Mon, 27 May 2019 10:30:01 +0200
+
+openfec (1.4.2.1) unstable; urgency=medium
+
+  * Fix memory leak in LDPC Staircase
+
+ -- Victor Gaydov <victor@enise.org>  Tue, 6 Jun 2017 13:34:52 +0300
+
+openfec (0.0~git20170606.143d8bc) unstable; urgency=medium
+
+  * Fix logging
+
+ -- Victor Gaydov <victor@enise.org>  Tue, 6 Jun 2017 13:29:41 +0300
+
+openfec (0.0~git20170606.6aeab6c) unstable; urgency=medium
+
+  * Fix operation on 32 bit platforms
+
+ -- mkh <baranov.mv@gmail.com>  Tue, 6 Jun 2017 13:27:22 +0300
+
+openfec (0.0~git20170606.1b9e971) unstable; urgency=medium
+
+  * Add BUILD_STATIC_LIBS CMake option
+
+ -- Victor Gaydov <victor@enise.org>  Tue, 6 Jun 2017 13:23:36 +0300
+
+openfec (0.0~git20170606.5f301a4) unstable; urgency=medium
+
+  * OpenFEC_1.4.2
+
+ -- Victor Gaydov <victor@enise.org>  Tue, 6 Jun 2017 12:59:21 +0300
