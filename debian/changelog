@@ -1,3 +1,9 @@
+openfec (1.4.2.5~git20230116.8f3059e) unstable; urgency=medium
+
+  * changelog
+
+ -- github-actions <github-actions@github.com>  Mon, 16 Jan 2023 01:37:44 +0000
+
 openfec (1.4.2.5~git20230109.ab4df28) unstable; urgency=medium
 
   * changelog
